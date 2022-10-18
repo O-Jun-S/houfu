@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <div class="wrapper">
             <h2>{year}年の抱負</h2>
-            <h1>{year + 1}年はきっと</h1>
+            <h1>「{year + 1}年はきっと」</h1>
             <div class="buttons">
                 <Button handle={ decrease }>
                     ←去年の抱負
